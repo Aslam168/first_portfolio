@@ -23,7 +23,11 @@
 /* nav related styles */
 
 header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-color: #fff8f3;
+    background-repeat: no-repeat;
+    background-position: left center, bottom right;
+    background-size: 80px, 650px;
 }
 
 nav {
@@ -54,3 +58,53 @@ nav ul > li > a {
     color: #474747;
 };
 
+
+/* banner related styles */
+
+section.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner-content h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 15px;
+}
+
+.banner-content h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.banner-content p {
+    font-size: 15px;
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+
+button.banner-btn {
+    margin-left: 20px;
+    background: white;
+    border: 1px solid #fd6e0a;
+    color: #fd6e0a;
+}
+
+section.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner-img img {
+    width: 450px;
+    margin-top: 45px;
+}
+
+.banner-img {
+    margin-right: -135px;
+}
+
+.banner-content > button {
+    cursor: pointer;
+}
