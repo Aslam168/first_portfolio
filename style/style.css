@@ -238,4 +238,51 @@ button.resume-btn {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 130px;
+    cursor: pointer;
+}
+
+
+/* footer related styles */
+
+footer {
+    background-color: #fff8f3;
+}
+
+.footer-form form input[type="text"], form input[type="email"], form textarea {
+    padding: 15px 20px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.footer-container {
+    display: flex;
+    padding: 100px 0px;
+    gap: 140px;
+}
+
+.footer-content h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.footer-content p {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.footer-icons i {
+    margin-right: 20px;
+    color: #fd6e0a;
+}
+
+.footer-content {
+    width: 50%;
+}
+
+.footer-form {
+    width: 50%;
 }
