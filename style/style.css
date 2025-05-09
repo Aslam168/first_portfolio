@@ -10,6 +10,10 @@
     margin: 0 auto;
 }
 
+.text-color{
+    color: #757575;
+}
+
 .btn-primary{
     background-color: #fd6e0a;
     padding: 15px 25px;
@@ -138,3 +142,52 @@ section.banner {
     justify-content: space-evenly;
     margin-top: 50px;
 }
+
+
+/* what I do related styles */
+
+.skills{
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.skills > h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    
+}
+
+.skills > p{
+    width: 75%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.skill-container {
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.skill {
+    text-align: left;
+    padding: 20px;
+    box-shadow: 0px 6px 50px 0px rgb(0 0 0 / 5%);
+    border-radius: 5px;
+}
+
+.skill img {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.skill h4 {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    font-size: 14px;
+    color: #757575;
+    line-height: 26px;
+}
+
